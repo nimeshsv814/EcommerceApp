@@ -11,7 +11,7 @@ spec:
         path: 
           type: PathPrefix
           value: /
-      filter:
+      filters:
         type: urlRewrite
         urlRewrite:
           path:
