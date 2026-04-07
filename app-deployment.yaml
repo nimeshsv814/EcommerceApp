@@ -5,7 +5,7 @@ metadata:
   namespace: ecom-ns
 spec:
   replicas: 3
-  selectors:
+  selector:
     matchLabels:
       app: ecom
   strategy:
