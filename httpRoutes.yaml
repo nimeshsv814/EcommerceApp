@@ -12,11 +12,11 @@ spec:
           type: PathPrefix
           value: /
       filters:
-        type: urlRewrite
-        urlRewrite:
-          path:
-            type: ReplacePrefixMatch
-            replacePrefixMatch: /
+        - type: urlRewrite
+          urlRewrite:
+            path:
+              type: ReplacePrefixMatch
+              replacePrefixMatch: /
       backendRefs:
         - name: ecom-deploy
           port: 8080
