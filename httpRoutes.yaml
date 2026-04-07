@@ -8,9 +8,9 @@ spec:
     - name: kgateway
   rules:
     - matches:
-        path: 
-          type: PathPrefix
-          value: /
+        - path: 
+            type: PathPrefix
+            value: /
       filters:
         - type: urlRewrite
           urlRewrite:
